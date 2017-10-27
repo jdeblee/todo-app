@@ -1,15 +1,15 @@
 //link this to every html page
 //declaring global variables
-var one = '6.jpg';
-var six = '6of6.jpg';
-var twelve = '6of12.jpg';
-var emptyaf = 'brownlogo.png';
+var one = 'images/6.jpg';
+var six = 'images/6of6.jpg';
+var twelve = 'images/6of12.jpg';
+var emptyaf = 'images/brownlogo.png';
 
 var oneprice = '4.00';
 var sixprice = '20.00'; 
 var twelveprice = '40.00';
 
-var goodbye = '<img src="x.png" alt="delete" style="width:12px;height:12px"/>';
+var goodbye = '<img src="images/x.png" alt="delete" style="width:12px;height:12px"/>';
 
 var secondFlavor = '<select> <option value="second flavor?">Second Flavor?</option><option value="Maple Apple Pecan">Maple Apple Pecan</option><option value="Bacon">Bacon</option><option value="Walnut">Walnut</option><option value="Lemon Lavender">Lemon Lavender</option><option value="Cranberry">Cranberry</option><option value="Original(Gluten-free)">Original(Gluten-free)</option><option value="Original(Vegan)">Original(Vegan)</option><option value="Caramel Pecan">Caramel Pecan</option><option value="Old Fashioned Buttermilk">Old Fashioned Buttermilk</option><option value="Blackberry">Blackberry</option><option value="Birthday Cake">Birthday Cake</option><option value="Pumpkin Spice">Pumpkin Spice</option><option value="Carrot Cake">Carrot Cake</option><option value="Strawberry Rhubarb">Strawberry Rhubarb</option></select>';
 var thirdFlavor = '<select> <option value="second flavor?">Third Flavor?</option><option value="Maple Apple Pecan">Maple Apple Pecan</option><option value="Bacon">Bacon</option><option value="Walnut">Walnut</option><option value="Lemon Lavender">Lemon Lavender</option><option value="Cranberry">Cranberry</option><option value="Original(Gluten-free)">Original(Gluten-free)</option><option value="Original(Vegan)">Original(Vegan)</option><option value="Caramel Pecan">Caramel Pecan</option><option value="Old Fashioned Buttermilk">Old Fashioned Buttermilk</option><option value="Blackberry">Blackberry</option><option value="Birthday Cake">Birthday Cake</option><option value="Pumpkin Spice">Pumpkin Spice</option><option value="Carrot Cake">Carrot Cake</option><option value="Strawberry Rhubarb">Strawberry Rhubarb</option></select>';
