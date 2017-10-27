@@ -1,10 +1,13 @@
 <!DOCTYPE html>
 <html>
-
+<head>
 	<!--linking typefaces+styles-->
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+	<script src="main.js"></script>
 
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400|Zilla+Slab:300,400" rel="stylesheet">
+</head>
 
 	<!--nav/header-->
 
@@ -15,8 +18,8 @@
 				</a>
 			</div>
 			<div class="flavornav">
-				<a href="#">menu</a> 
-				<a href="#">cart(0)</a>
+				<a href="index2.html">menu</a> 
+				<a href="index4.html">cart</a>
 			</div>
 			 <div class="title">
 			 	<h3>original</h3>
@@ -32,21 +35,27 @@
 	<!--item feature-->		 
 
 		<div class="original">
-			<img src="6.jpg" alt="Original" style="width:250px;height:250px;border:0;">
+			<div class="testtest">
+				<img class="testimg" src="6.jpg" alt="Original" style="width:250px;height:250px;border:0;">
+			</div>
 				<div class="form">
 					<p>Original</p>
-					<p class="price">4.60</p>
+					<p class="price">4.00</p>
 					<p>Have you ever tried a good original cinnamon roll? We bet you haven't until you try Bunbun's!</p>
 					<div class="quantity">
 						<p>
-							<label>
-								<input type="text" name="quantity" required>quantity
-							</label> 
+						<div class="select-style">
+							<select>
+							  <option value="pack of 1">1-pack</option>
+							  <option value="pack of 6">6-pack</option>
+							  <option value="pack of 12">12-pack</option>
+							</select>
+						</div>
 						</p>
 					</div>
 				</div>
 			<a href="#"> 
-				<button type="button">add to cart</button>
+				<button class="caart" type="button">add to cart</button>
 			</a>
 		</div>
 			<footer>Deborah Lee © 2017</footer>

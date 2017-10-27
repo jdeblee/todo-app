@@ -162,7 +162,7 @@ footer {
 	padding-left: 100px;
 }
 
-.flavors img {
+.flavors img{
 	width:200px;
 	height:200px;
 	overflow: hidden;
@@ -211,9 +211,10 @@ footer {
 	vertical-align: center;
 }
 
-.original img {
+.testtest img {
 	object-fit: cover;
 	border-radius: 4px;
+	display: inline-block;
 }
 
 .original p {
@@ -230,8 +231,8 @@ footer {
 .form {
 	display: inline-block;
 	position: relative;
-	left: 80px;
-	top: -60px;
+	left: 350px;
+	top: -250px;
 }
 
 /** order form **/
@@ -262,6 +263,129 @@ footer {
 	font-size: 14px;
 	font-weight: lighter;
 	position: relative;
-	right: 166px;
+	left: 105px;
+	top: -200px;
+}
+
+/** cart page **/
+
+.productpreview {
+	padding-left: 250px;
+	padding-top: 100px;
+	width:200px;
+	height:200px;
+	object-fit: cover;
+	border-radius: 2px;
+	z-index: -1;
+	float: left;
+}
+
+.cartlist table{
+   margin-right: auto;
+   padding-left: 150px;
+   padding-top: 80px;
+
+}
+
+.cartlist th, td{
+	font-family: "Source Sans Pro", sans-serif;
+ 	color: #9b8272;
+	width: 240px;
+	font-weight: bold;
+	line-height: 1.3em;
+	text-align: left;
+	height: 50px;
+}
+
+.cartlist td {
+	font-weight: lighter;
+	color: #c6a995;
+}
+
+.cartlist a{
+	color: #c9bdb9;
+	position: relative;
+	left: 5px;
+	font-style: italic;
+	font-weight: regular;
+}
+
+th {
+	font-family: "Source Sans Pro", sans-serif;
+ 	color: #c6a995;
+}
+
+hr {
+    display: block;
+    height: 1px;
+    border: 0;
+    border-top: 1px solid #c6a995;
+    margin: 1em 0;
+    width: 20%;
+    position: relative;
+    left: 145px;
+}
+
+.total{
+	padding-left: 135px;
+}
+
+.totes {
+	font-size: 16px;
+	font-weight: lighter;
+}
+
+.pay {
+	font-size: 28px;
+	font-weight: 800;
+	text-align: right;
+	padding-right: 55px;
+}
+
+.payment {
+	padding-left: 270px;
+}
+
+
+
+.payment button {
+	margin-top: 40px;
+	background-color: #f9f6f4;
+	border: 1px solid #c6a995;
+	border-radius: 4px;
+	text-decoration: none;
+	padding-top: 8px;
+	padding-bottom: 10px;
+	padding-left: 30px;
+	padding-right: 30px;
+	color: #c6a995;
+	font-family: 'Zilla Slab';
+	font-size: 14px;
+	font-weight: lighter;
 	top: -20px;
+}
+
+
+.select-style {
+    border: 1px solid #c6a995;
+    width: 120px;
+    border-radius: 2px;
+    overflow: hidden;
+    font-family: serif;
+
+}
+
+.select-style select {
+    padding: 6px 8px;
+    width: 130%;
+    border: none;
+    box-shadow: none;
+    background: transparent;
+    background-image: none;
+    -webkit-appearance: none;
+    color: #c6a995;q
+}
+
+.select-style select:focus {
+    outline: none;
 }
